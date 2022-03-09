@@ -406,7 +406,7 @@ footer {
     padding: 8% 0;
 }
 
-.footer__logo--image {
+.footer__logo--img {
     width: 70px;
     height: 70px;
 }
@@ -426,8 +426,9 @@ footer {
 }
 
  .footer__anchor{
-     position: relative;
      margin-bottom: 20px;
+     position: relative;
+     
  }
 
  .footer__anchor:hover .footer__logo--popper {
