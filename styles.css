@@ -373,12 +373,12 @@ nav{/**/
 .project__description--link{
     font-size: 20px;
     margin-right: 16px;
+    color:#fff; 
 }
 
 .project__description--title,
 .project__description--sub-title,
-.project__description--para,
-.project__description--link{
+.project__description--para{
     text-align: left;
     color:#fff; 
 }
@@ -430,7 +430,7 @@ footer {
  }
 
  .footer__anchor:hover .footer__logo--popper {
-     transform: translateX(60px);
+     transform: translateX(120px);
      opacity: 1;
  }
 
@@ -460,6 +460,7 @@ footer {
       left: 30px;
       padding-right: 30px;
     }
+
   }
 
   /* SMALL PHONES */
@@ -469,7 +470,7 @@ footer {
     }
   
     .project__wrapper {
-      border-radius: 2px;
+      border-radius: 10px;
     }
   
     .project__description {
@@ -483,8 +484,8 @@ footer {
     }
   
     .project__description--link {
-      display: flex;
-      justify-content: center;
+      display: none;
+      justify-self: center;
     }
   
     .project__description--title {
